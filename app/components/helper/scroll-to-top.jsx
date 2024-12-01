@@ -11,6 +11,7 @@ const ScrollToTop = () => {
   const [btnCls, setBtnCls] = useState(DEFAULT_BTN_CLS);
 
   useEffect(() => {
+    // Ensure we're on the client-side
     if (typeof window === "undefined") return;
 
     const handleScroll = () => {
@@ -20,6 +21,7 @@ const ScrollToTop = () => {
         setBtnCls(DEFAULT_BTN_CLS + " hidden");
       }
     };
+
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
       window.removeEventListener("scroll", handleScroll, { passive: true });

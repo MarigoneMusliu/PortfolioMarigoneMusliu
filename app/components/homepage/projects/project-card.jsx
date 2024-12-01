@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import Image from 'next/image';
 function ProjectCard({ project }) {
   return (
     <div className="border-[#1b2c68a0] relative rounded-lg border bg-[#061630] w-full p-4">
@@ -70,10 +70,12 @@ function ProjectCard({ project }) {
           rel="noopener noreferrer"
           className="inline-flex items-center bg-[#2a3d4f] text-white rounded px-6 py-2 mt-2 hover:bg-[#061630] w-full max-w-[240px] justify-center"
         >
-          <img
+          <Image
             src="/github.png" // Reference to the image in the public folder
             alt="GitHub"
-            className="w-6 h-6 mr-3" // Logo height equal to the button height
+            width={24} // Specify the desired width in pixels
+            height={24} // Specify the desired height in pixels
+            className="mr-3" // Tailwind classes for margin and other styles
           />
           GitHub
         </a>
@@ -83,10 +85,12 @@ function ProjectCard({ project }) {
           href="https://https-github-com-marigone-musliu-quiz-game-app-photos.vercel.app/"
           className="inline-flex items-center bg-[#2a3d4f] text-white rounded px-6 py-2 mt-2 hover:bg-[#061630] w-full max-w-[290px] justify-center"
         >
-          <img
+          <Image
             src="/view.jpg" // Reference to your custom logo
             alt="Contact Us"
-            className="w-6 h-6 mr-3" // Adjust the size of the logo to match the button
+            width={24} // You can replace with the desired width in pixels
+            height={24} // You can replace with the desired height in pixels
+            className="mr-3" // Tailwind classes for margin and other styles
           />
           View the Project
         </a>
