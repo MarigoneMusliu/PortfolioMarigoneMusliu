@@ -21,8 +21,7 @@ export const projectsData = [
     name: "Skin Care Mari",
     tools: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "MySQL", "JSON"],
     myRole: "Full Stack Developer",
-    description:
-      "This project is a web-based system for managing a skincare business. I developed two modules—UserModule for customer interactions and AdminModule for managing products, users, and orders. The backend was built with PHP and MySQL for secure database operations, and the frontend is designed to be intuitive and user-friendly.",
+    description: "",
     githubLink: "https://github.com/MarigoneMusliu/SkinCareMari",
     demoLink:
       "https://https-github-com-marigone-musliu-skin-care-mari-project-photo.vercel.app/", // Custom demo link for Skin Care Mari

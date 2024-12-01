@@ -11,9 +11,6 @@ const ScrollToTop = () => {
   const [btnCls, setBtnCls] = useState(DEFAULT_BTN_CLS);
 
   useEffect(() => {
-    // Ensure we're on the client-side
-    if (typeof window === "undefined") return;
-
     const handleScroll = () => {
       if (window.scrollY > SCROLL_THRESHOLD) {
         setBtnCls(DEFAULT_BTN_CLS.replace(" hidden", ""));
@@ -21,18 +18,13 @@ const ScrollToTop = () => {
         setBtnCls(DEFAULT_BTN_CLS + " hidden");
       }
     };
-
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => {
       window.removeEventListener("scroll", handleScroll, { passive: true });
     };
   }, []);
 
-  const onClickBtn = () => {
-    if (typeof window !== "undefined") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  };
+  const onClickBtn = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
     <button className={btnCls} onClick={onClickBtn}>
