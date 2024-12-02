@@ -6,7 +6,7 @@ import { BsHeartFill } from 'react-icons/bs';
 import { FaCommentAlt } from 'react-icons/fa';
 
 function BlogCard({ blog }) {
-  const fallbackImage = '/path-to-fallback-image.jpg'; // Replace with your fallback image path.
+  const fallbackImage = '../../../../public/hero.svg'; // Replace with your fallback image path.
 
   return (
     <div className="border border-[#1d293a] hover:border-[#464c6a] transition-all duration-500 bg-[#1b203e] rounded-lg relative group">
@@ -35,7 +35,7 @@ function BlogCard({ blog }) {
             )}
           </div>
         </div>
-        <Link target="_blank" href={blog.url}>
+        <Link target="_blank" rel="noopener noreferrer" href={blog.url}>
           <p className="my-2 lg:my-3 cursor-pointer text-lg text-white sm:text-xl font-medium hover:text-violet-500">
             {blog.title}
           </p>

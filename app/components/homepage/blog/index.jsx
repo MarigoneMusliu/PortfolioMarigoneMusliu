@@ -1,4 +1,3 @@
-// @flow strict
 import Link from 'next/link';
 import { FaArrowRight } from 'react-icons/fa';
 import BlogCard from './blog-card';
@@ -6,14 +5,14 @@ import BlogCard from './blog-card';
 function Blog({ blogs }) {
   if (!blogs || blogs.length === 0) {
     return (
-      <div id='blogs' className="relative z-50 my-12 lg:my-24">
+      <div id="blogs" className="relative z-50 my-12 lg:my-24">
         <p className="text-center text-gray-500">No blogs available at the moment.</p>
       </div>
     );
   }
 
   return (
-    <div id='blogs' className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
+    <div id="blogs" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
       <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl opacity-20"></div>
 
       <div className="flex justify-center -translate-y-[1px]">
@@ -23,11 +22,11 @@ function Blog({ blogs }) {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-5 lg:gap-8 xl:gap-10">
-        {blogs.slice(0, 6).map((blog, i) => (
+        {blogs.slice(0, 6).map((blog, index) => (
           blog?.cover_image ? (
-            <BlogCard blog={blog} key={i} />
+            <BlogCard blog={blog} key={blog.id || index} />
           ) : (
-            <div key={i} className="p-4 bg-gray-100 rounded-lg text-center">
+            <div key={blog.id || index} className="p-4 bg-gray-100 rounded-lg text-center">
               <p>No image available for this blog</p>
             </div>
           )
