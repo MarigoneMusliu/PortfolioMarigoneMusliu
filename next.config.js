@@ -6,7 +6,7 @@ module.exports = {
       // Adding support for window and document usage on the client side
       config.node = {
         ...config.node,
-        fs: 'empty', // to prevent 'fs' module errors
+        fs: "empty", // to prevent 'fs' module errors
         global: true,
         process: true,
         crypto: true,
@@ -14,7 +14,6 @@ module.exports = {
     }
     return config;
   },
-};
   images: {
     remotePatterns: [
       {
