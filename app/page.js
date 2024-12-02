@@ -1,12 +1,11 @@
 import React from 'react'
 import HomePageComponent from './components/homepage/homepage'
 
-const HomePage = () => {
+
+export default function HomePage() {
   return (
     <>
-     <HomePageComponent/>
+      <HomePageComponent />
     </>
-  )
+  );
 }
-
-export default HomePage
