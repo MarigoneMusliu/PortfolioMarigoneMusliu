@@ -13,6 +13,7 @@ import photoshop from "/public/svg/skills/photoshop.svg";
 import php from "/public/svg/skills/php.svg";
 import python from "/public/svg/skills/python.svg";
 import react from "/public/svg/skills/react.svg";
+import git from "/public/svg/skills/git.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -47,6 +48,8 @@ export const skillsImage = (skill) => {
       return php;
     case "python":
       return python;
+    case "git";
+      return git;
     default:
       break;
   }
