@@ -4,7 +4,7 @@ import HomePageComponent from './MainPageComponent'
 const HomePage = () => {
   return (
     <>
-    <HomePageComponent/>
+    {/* <HomePageComponent/> */}
     </>
   )
 }

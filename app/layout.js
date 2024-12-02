@@ -7,6 +7,14 @@ import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
 import ScrollToTop from "./components/helper/scroll-to-top";
+import HomePageComponent from "./MainPageComponent";
+import HeroSection from "./components/homepage/hero-section";
+import AboutSection from "./components/homepage/about";
+import Experience from "./components/homepage/experience";
+import Skills from "./components/homepage/skills";
+import Projects from "./components/homepage/projects";
+import Education from "./components/homepage/education";
+import ContactSection from "./components/homepage/contact";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -22,6 +30,13 @@ export default function RootLayout({ children }) {
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
           <Navbar />
+          <HeroSection />
+      <AboutSection />
+      <Experience />
+      <Skills />
+      <Projects />
+      <Education />
+      <ContactSection />
           {children}
           <ScrollToTop />
         </main>
