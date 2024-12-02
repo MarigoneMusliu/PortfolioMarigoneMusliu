@@ -1,4 +1,4 @@
-// useClientSide.js
+"use client";
 import { useEffect } from "react";
 
 export default function ClientSideComponent() {
