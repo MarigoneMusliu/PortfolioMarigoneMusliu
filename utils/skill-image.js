@@ -48,7 +48,7 @@ export const skillsImage = (skill) => {
       return php;
     case "python":
       return python;
-    case "git";
+    case "git":
       return git;
     default:
       break;
