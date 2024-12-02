@@ -1,10 +1,9 @@
 import React from 'react'
-import HomePageComponent from './MainPageComponent'
 
 const HomePage = () => {
   return (
     <>
-    {/* <HomePageComponent/> */}
+     hi
     </>
   )
 }
