@@ -7,7 +7,6 @@ import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
 import ScrollToTop from "./components/helper/scroll-to-top";
-import HomePageComponent from "./MainPageComponent";
 import HeroSection from "./components/homepage/hero-section";
 import AboutSection from "./components/homepage/about";
 import Experience from "./components/homepage/experience";
