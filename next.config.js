@@ -9,7 +9,6 @@ module.exports = {
         fs: "empty", // to prevent 'fs' module errors
         global: true,
         process: true,
-        crypto: true,
       };
     }
     return config;
