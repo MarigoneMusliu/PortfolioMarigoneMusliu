@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import { personalData } from "@/utils/data/personal-data";
 import AboutSection from "./components/homepage/about";
 import Blog from "./components/homepage/blog";
@@ -9,34 +9,34 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
+import { useEffect, useState } from "react";
+
+// Dynamically import the client-side component (no SSR)
+const ClientSideComponent = dynamic(() => import("./useClientSide"), {
+  ssr: false, // Disable SSR for this component
+});
+
+async function getData() {
+  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`);
+  if (!res.ok) {
+    throw new Error('Failed to fetch data');
+  }
+  const data = await res.json();
+  return data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
+}
 
 export default function Home() {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // Fetch data inside useEffect for client-side rendering
   useEffect(() => {
-    async function getData() {
-      const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`);
-
-      if (!res.ok) {
-        throw new Error("Failed to fetch data");
-      }
-
-      const data = await res.json();
-
-      const filtered = data.filter((item) => item?.cover_image).sort(() => Math.random() - 0.5);
-      setBlogs(filtered);
+    async function fetchData() {
+      const blogsData = await getData();
+      setBlogs(blogsData);
       setLoading(false);
     }
 
-    getData().catch(console.error);
-  }, []);
-
-  useEffect(() => {
-    if (typeof document !== "undefined") {
-      document.title = "My Page Title";
-    }
+    fetchData().catch(console.error);
   }, []);
 
   if (loading) {
@@ -45,6 +45,7 @@ export default function Home() {
 
   return (
     <>
+      <ClientSideComponent /> {/* Render client-side logic here */}
       <HeroSection />
       <AboutSection />
       <Experience />
