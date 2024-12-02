@@ -1,9 +1,20 @@
 const path = require("path");
 
 module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      // Adding support for window and document usage on the client side
+      config.node = {
+        ...config.node,
+        fs: 'empty', // to prevent 'fs' module errors
+        global: true,
+        process: true,
+        crypto: true,
+      };
+    }
+    return config;
   },
+};
   images: {
     remotePatterns: [
       {
