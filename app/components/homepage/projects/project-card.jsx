@@ -82,7 +82,7 @@ function ProjectCard({ project }) {
 
         {/* Click to see the project Button with logo */}
         <a
-          href="https://https-github-com-marigone-musliu-quiz-game-app-photos.vercel.app/"
+          href={project.demoLink}
           className="inline-flex items-center bg-[#2a3d4f] text-white rounded px-6 py-2 mt-2 hover:bg-[#061630] w-full max-w-[290px] justify-center"
         >
           <Image
