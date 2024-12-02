@@ -8,7 +8,7 @@ export const experiences = [
   {
     id: 2,
     title: "Junior on Advanced JavaScript & ReactJs Course",
-    company: "Beetrot Academy",
+    company: "Beetroot Academy",
     duration: "(Dec 2023 - Feb 2024)",
   },
   {
