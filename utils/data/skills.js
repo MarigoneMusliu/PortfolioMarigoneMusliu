@@ -44,14 +44,13 @@ export const skillsData = [
   WolframAlpha
   Adobe XD
   After Effects
-  Bootstrap
   Bulma
   CapacitorJs
   Coffeescript
   MemSQL
   C
   C++
-  C#
+  
   Python
   Java
   Julia
@@ -69,7 +68,6 @@ export const skillsData = [
   Figma
   Canva
   Ubuntu
-  Bootstrap
   MongoDB
   Tailwind
   ViteJS
