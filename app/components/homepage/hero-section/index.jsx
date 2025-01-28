@@ -120,8 +120,6 @@ function HeroSection() {
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">ReactJs</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">C#</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">SQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
@@ -135,12 +133,6 @@ function HeroSection() {
                 <span className="text-amber-300">Php</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Laravel</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Arduino</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Bootstrap</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Matlab</span>
                 <span className="text-gray-400">{"', '"}</span>
               </div>
               <div>
