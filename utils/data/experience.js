@@ -1,13 +1,13 @@
 export const experiences = [
    {
     id: 1,
-    title: "Full Stack Developer",
-    company: "Tectigon",
-    duration: "(Oct 2024 - Present)",
+    title: "Full Stack Developer Training",
+    company: "Tectigon Academy",
+    duration: "(Oct 2024 - Dec 2024)",
   },
  {
     id: 2,
-    title: "Junior on Advanced JavaScript & ReactJs Course",
+    title: "Junior on Advanced JavaScript & ReactJs Training",
     company: "Beetroot Academy",
     duration: "(Dec 2023 - Feb 2024)",
   },
@@ -19,7 +19,7 @@ export const experiences = [
   },
   {
     id: 4,
-    title: "Python",
+    title: "Python Training",
     company: "Roi Academy",
     duration: "(Apr 2022)",
   },
