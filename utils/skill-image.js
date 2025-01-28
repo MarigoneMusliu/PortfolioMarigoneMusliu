@@ -1,6 +1,5 @@
 import * as adobeXd from "/public/svg/skills/adobe-xd.svg";
 import bootstrap from "/public/svg/skills/bootstrap.svg";
-import csharp from "/public/svg/skills/csharp.svg";
 import css from "/public/svg/skills/css.svg";
 import sql from "/public/svg/skills/sql.svg";
 import laravel from "/public/svg/skills/laravel.svg";
@@ -34,8 +33,6 @@ export const skillsImage = (skill) => {
       return bootstrap;
     case "mysql":
       return mysql;
-    case "c#":
-      return csharp;
     case "laravel":
       return laravel;
     case "arduino":
