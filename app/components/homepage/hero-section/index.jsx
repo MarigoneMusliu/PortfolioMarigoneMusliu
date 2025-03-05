@@ -118,13 +118,21 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
-                <span className="text-amber-300">ReactJs,</span>
+                <span className="text-amber-300">Python,</span>
+                <span className="text-gray-400">{`'`}</span>
+                <span className="text-amber-300">Django,</span>
+                <span className="text-gray-400">{`'`}</span>
+                <span className="text-amber-300">UI/UX,</span>
+                <span className="text-gray-400">{`'`}</span>
+                <span className="text-amber-300">KuBIT,</span>
+                <span className="text-gray-400">{`'`}</span>
+                <span className="text-amber-300">CorelDRAW,</span>
                 <span className="text-gray-400">{`'`}</span>
                 <span className="text-amber-300">SQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Python</span>
+                <span className="text-amber-300">ReactJs</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -133,6 +141,20 @@ function HeroSection() {
                 <span className="text-amber-300">Php</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Laravel</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">SEO</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Content Strategy</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Social Media Marketing</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Mechatronics</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Automation Systems</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Robotics Programming</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Arduino</span>
                 <span className="text-gray-400">{"', '"}</span>
               </div>
               <div>
