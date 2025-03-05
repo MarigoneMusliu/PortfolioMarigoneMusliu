@@ -136,8 +136,6 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Php</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Laravel</span>
