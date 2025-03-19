@@ -6,6 +6,28 @@ import travel from "/public/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
+    name: "Real Estate",
+    tools: ["HTML", "CSS", "JavaScript"],
+    myRole: "FrontEnd  Developer",
+    description:
+      "I developed a real estate website on my own using HTML, CSS, and JavaScript, where I showcased properties for sale or rent. The platform allows users to view property listings with details such as room descriptions, pricing, and location. As part of the project, I created a promotional section for a real estate agency in Kosovo, highlighting their services and available properties. The website is designed to provide potential clients with easy navigation and an informative experience when searching for properties.",
+    githubLink: "https://github.com/MarigoneMusliu/RealEstate",
+    demoLink: "https://real-estate-mu-rosy.vercel.app/", // Custom demo link for Quiz Game
+    image: crefin,
+  },
+  {
+    id: 1,
+    name: "Bycicle E-Commerce ",
+    tools: ["HTML", "CSS", "JavaScript", "Vue.js"],
+    myRole: "Full Stack Developer",
+    description:
+      "I developed an e-commerce platform for purchasing electric bikes on my own, using HTML, CSS, JavaScript, and Vue.js. The website allows users to browse different bike models, add items to their cart, and manage their shopping experience. I also implemented features such as adding bikes to a favorites list, removing items from the cart, and a contact section for customer inquiries. The dynamic nature of the site is powered by Vue.js, providing an interactive and smooth user experience throughout the purchasing process.",
+    githubLink: "https://github.com/MarigoneMusliu/E-Commerce-E-Bike",
+    demoLink: "https://e-commerce-e-bike.vercel.app/", // Custom demo link for Quiz Game
+    image: crefin,
+  },
+  {
+    id: 1,
     name: "Quiz Game App",
     tools: ["HTML", "CSS", "JavaScript", "SQL", "MySQL", "PHP"],
     myRole: "Backend Developer",
@@ -16,6 +38,7 @@ export const projectsData = [
       "https://https-github-com-marigone-musliu-quiz-game-app-photos.vercel.app/", // Custom demo link for Quiz Game
     image: crefin,
   },
+
   {
     id: 2,
     name: "Skin Care Mari",
