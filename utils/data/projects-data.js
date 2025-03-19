@@ -27,7 +27,7 @@ export const projectsData = [
     image: crefin,
   },
   {
-    id: 1,
+    id: 3,
     name: "Quiz Game App",
     tools: ["HTML", "CSS", "JavaScript", "SQL", "MySQL", "PHP"],
     myRole: "Backend Developer",
@@ -40,7 +40,7 @@ export const projectsData = [
   },
 
   {
-    id: 2,
+    id: 4,
     name: "Skin Care Mari",
     tools: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "MySQL", "JSON"],
     myRole: "Full Stack Developer",
@@ -52,7 +52,7 @@ export const projectsData = [
     image: travel,
   },
   {
-    id: 3,
+    id: 5,
     name: "Hotel Reservation Management",
     tools: ["HTML", "CSS", "JavaScript", "Laravel"],
     myRole: "Full Stack Developer",
@@ -64,7 +64,7 @@ export const projectsData = [
     image: realEstate,
   },
   {
-    id: 4,
+    id: 6,
     name: "Movie App",
     tools: ["HTML", "CSS", "JavaScript", "ReactJS"],
     myRole: "ReactJS Developer",
