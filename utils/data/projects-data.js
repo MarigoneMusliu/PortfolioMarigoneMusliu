@@ -28,7 +28,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    name: "https://florconstruction.vercel.app/",
+    name: "Flor Construction",
     tools: [""],
     myRole: "",
     description:

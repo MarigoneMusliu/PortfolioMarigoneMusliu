@@ -6,7 +6,7 @@ export const experiences = [
     company: "Albimi – Manufacturer of Pilot Bicycles",
     duration: "Feb 2025 – Present",
     duties:
-      "Manage and maintain the company's website, ensuring it is up-to-date and functional. Oversee the internal network infrastructure, providing support for system security, and troubleshooting IT-related issues. Assist in the configuration and optimization of IT systems to improve company operations. In addition, work on basic mechatronics tasks, programming robots to handle bicycle type changes. Design bicycles and manage social media platforms, creating engaging content and visual materials for online presence.",
+      "Manage and maintain the company's website, ensuring it is up-to-date and functional. Oversee the internal network infrastructure, providing support for system security, and troubleshooting IT-related issues. Assist in the configuration and optimization of IT systems to improve company operations. In addition, work on basic mechatronics tasks, programming robots to handle bicycle type changes. Design bicycles and manage social media platforms, creating engaging content and visual materials for online presence."
   },
   {
     id: 2,
@@ -37,8 +37,7 @@ export const experiences = [
     title: "Applied Science One Day Training",
     company: "Austrian Development Cooperation",
     duration: "(Jan 2023)",
-    duties:
-      "Concrete Applications of Data Structures and Algorithms in Web and Mobile Development",
+    duties:"Concrete Applications of Data Structures and Algorithms in Web and Mobile Development",
   },
   {
     id: 6,

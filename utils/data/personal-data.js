@@ -17,5 +17,5 @@ export const personalData = {
   leetcode: "https://leetcode.com/u/MarigonaMusliu/",
   devUsername: "marigonemusliu",
   resume:
-    "https://drive.google.com/file/d/1SiCiFrJdDCdWh150H7cILbetEtOaM_r0/view?usp=sharing",
+    "https://drive.google.com/file/d/142E3bMOy2YWbdOpiNlLvexDuY6kWsiNP/view?usp=drive_link",
 };
