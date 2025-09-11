@@ -13,5 +13,15 @@ export const educations = [
     institution: "University of Kadri Zeka",
     field: "Software Engineer and Web Design",
   },
+<<<<<<< HEAD
   
+=======
+  {
+    id: 3,
+    title: "High School Diploma",
+    duration: "2018 - 2021",
+    institution: "Lezha Assembly",
+    field: "Mathematical Natural Sciences",
+  },
+>>>>>>> 78cd480026a94336ed4b50724fcdfacfc3457ef5
 ];
