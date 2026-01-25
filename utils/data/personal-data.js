@@ -3,7 +3,7 @@ export const personalData = {
   profile: "/profile.png",
   designation: "Software Developer",
   description:
-    "My name is Marigonë Musliu, and I’m a programmer who loves learning and exploring new ideas. I enjoy solving problems and working on projects that challenge me to grow and improve. I’m passionate about what I do and always try to give my best in everything.I’m motivated, hardworking, and open to new opportunities where I can contribute, learn, and make a difference.My primary expertise lies in JavaScript, React, and SQL, and I enjoy working across various web development stacks to create applications that are functional, user-friendly, and accessible.",
+    "I am a Software Engineer and Master’s candidate in Control Systems and AI, specializing in the intersection of technical architecture and user experience.With a background in Front-End Engineering and Digital Design, I focus on building scalable, high-performance web applications. I am committed to leveraging modern frameworks and intelligent systems to create impactful, user-centric solutions that thrive within the evolving tech landscape.",
   email: "marigonamusliu48@gmail.com",
   phone: "+38349733741",
   address: "Gjilan ,Kosovo",

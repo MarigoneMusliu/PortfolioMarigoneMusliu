@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    title: "Front End Developer - Angular",
+    title: "Front End Developer - Angular(Internship)",
     company: "Behamics Company",
     duration: "Nov 2025 – Present",
     duties:
@@ -12,7 +12,7 @@ export const experiences = [
     id: 2,
     title: "IT & Graphic Designer",
     company: "Albimi – Manufacturer of Pilot Bicycles",
-    duration: "Feb 2025 – Present",
+    duration: "Feb 2025 –  Aug 2025",
     duties:
       "Designed bicycle models and created 3D templates and visuals for production, provided IT support, including network maintenance, troubleshooting, and data management, managed and optimized the company’s social media presence, creating engaging content and marketing materials, supported printing and technical design processes for product development.",
   },
