@@ -12,9 +12,10 @@ const php = "/svg/skills/php.svg";
 const python = "/svg/skills/python.svg";
 const react = "/svg/skills/react.svg";
 const git = "/svg/skills/git.svg";
+const angular = "/svg/skills/angular.svg";
 
 export const skillsImage = (skill) => {
-  const skillID = skill.toLowerCase();
+  const skillID = skill.toLowerCase().trim();
   switch (skillID) {
     case "html":
       return html;
@@ -44,6 +45,8 @@ export const skillsImage = (skill) => {
       return python;
     case "git":
       return git;
+    case "angular":
+      return angular;
     default:
       break;
   }

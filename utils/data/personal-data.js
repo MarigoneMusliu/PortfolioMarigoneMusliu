@@ -1,7 +1,7 @@
 export const personalData = {
   name: "MARIGONË MUSLIU",
   profile: "/profile.png",
-  designation: "Software Developer",
+  designation: "Software Engineer",
   description:
     "I am a Software Engineer and Master’s candidate in Control Systems and AI, specializing in the intersection of technical architecture and user experience.With a background in Front-End Engineering and Digital Design, I focus on building scalable, high-performance web applications. I am committed to leveraging modern frameworks and intelligent systems to create impactful, user-centric solutions that thrive within the evolving tech landscape.",
   email: "marigonamusliu48@gmail.com",
