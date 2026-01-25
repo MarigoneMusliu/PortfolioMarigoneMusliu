@@ -3,7 +3,7 @@
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
-import AnimationLottie from "../../helper/animation-lottie";
+import AnimationLottie from "../../helper/animation-lottie-client";
 import GlowCard from "../../helper/glow-card";
 const experience = "/lottie/code.json";
 
