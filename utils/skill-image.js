@@ -1,17 +1,17 @@
-import * as adobeXd from "/public/svg/skills/adobe-xd.svg";
-import css from "/public/svg/skills/css.svg";
-import sql from "/public/svg/skills/sql.svg";
-import laravel from "/public/svg/skills/laravel.svg";
-import arduino from "/public/svg/skills/arduino.svg";
-import html from "/public/svg/skills/html.svg";
-import javascript from "/public/svg/skills/javascript.svg";
-import matlab from "/public/svg/skills/matlab.svg";
-import mysql from "/public/svg/skills/mysql.svg";
-import photoshop from "/public/svg/skills/photoshop.svg";
-import php from "/public/svg/skills/php.svg";
-import python from "/public/svg/skills/python.svg";
-import react from "/public/svg/skills/react.svg";
-import git from "/public/svg/skills/git.svg";
+const adobeXd = "/svg/skills/adobe-xd.svg";
+const css = "/svg/skills/css.svg";
+const sql = "/svg/skills/sql.svg";
+const laravel = "/svg/skills/laravel.svg";
+const arduino = "/svg/skills/arduino.svg";
+const html = "/svg/skills/html.svg";
+const javascript = "/svg/skills/javascript.svg";
+const matlab = "/svg/skills/matlab.svg";
+const mysql = "/svg/skills/mysql.svg";
+const photoshop = "/svg/skills/photoshop.svg";
+const php = "/svg/skills/php.svg";
+const python = "/svg/skills/python.svg";
+const react = "/svg/skills/react.svg";
+const git = "/svg/skills/git.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();

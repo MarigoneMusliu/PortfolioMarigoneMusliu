@@ -1,7 +1,7 @@
-import ayla from "/public/image/ayla.jpg";
-import crefin from "/public/image/crefin.jpg";
-import realEstate from "/public/image/real-estate.jpg";
-import travel from "/public/image/travel.jpg";
+const ayla = "/image/ayla.jpg";
+const crefin = "/image/crefin.jpg";
+const realEstate = "/image/real-estate.jpg";
+const travel = "/image/travel.jpg";
 
 export const projectsData = [
   {
@@ -46,5 +46,5 @@ export const projectsData = [
       "Developed a personal e-commerce website for electric bikes using React.js, focusing on interactive UI, responsive design, and modern web development practices. This project showcases my skills in front-end development and user interface design.",
     githubLink: "https://github.com/MarigoneMusliu/E-Commerce-E-Bike",
     demoLink: "https://e-commerce-e-bike.vercel.app/", // Custom demo link for Movie App
-  }
+  },
 ];
