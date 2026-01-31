@@ -3,7 +3,7 @@ export const experiences = [
     id: 1,
     title: "Front End Developer - Angular(Internship)",
     company: "Behamics Company",
-    duration: "Nov 2025 – Present",
+    duration: "Nov 2025 – Feb 2026",
     duties:
       "Full-time engagement as a Front-end Developer in developing digital applications by creating modern user interfaces and collaborating with the development team on local and international projects in accordance with professional standards.",
   },
