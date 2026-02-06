@@ -23,7 +23,7 @@ export const experiences = [
     company: "Tectigon Academy",
     duration: "Oct 2024 - Dec 2024",
     duties:
-      "Successfully completed a Full-Stack Developer training, covering PHP, SQL, JavaScript, ReactJS, HTML, and CSS. The program included one month of hands-on practice, applying learned technologies in real-world projects.",
+      "Successfully completed a Full-Stack Developer training, covering PHP, SQL, JavaScript, ReactJS, Vue Js . The program included one month of hands-on practice, applying learned technologies in real-world projects.",
   },
 
   {

@@ -13,6 +13,7 @@ const python = "/svg/skills/python.svg";
 const react = "/svg/skills/react.svg";
 const git = "/svg/skills/git.svg";
 const angular = "/svg/skills/angular.svg";
+const vue = "/svg/skills/vue.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase().trim();
@@ -29,6 +30,10 @@ export const skillsImage = (skill) => {
       return javascript;
     case "react":
       return react;
+    case "vue":
+    case "vue.js":
+    case "vue js":
+      return vue;
     case "mysql":
       return mysql;
     case "laravel":
