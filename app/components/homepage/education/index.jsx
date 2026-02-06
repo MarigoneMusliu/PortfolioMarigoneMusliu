@@ -1,4 +1,3 @@
-// @flow strict
 import Image from "next/image";
 
 import { educations } from "@/utils/data/educations";
@@ -76,7 +75,6 @@ function Education() {
                         <p className="text-sm sm:text-base">
                           {education.institution}
                         </p>
-                        {/* Display the new 'field' property */}
                         {education.field && (
                           <p className="text-sm sm:text-base mt-2 text-[#FFF]">
                             {education.field}
