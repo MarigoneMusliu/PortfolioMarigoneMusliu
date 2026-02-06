@@ -10,7 +10,6 @@ const AnimationLottie = ({ animationPath, width }) => {
     let mounted = true;
     if (!animationPath) return;
 
-    // load animation JSON
     fetch(animationPath)
       .then((res) => res.json())
       .then((data) => {
@@ -19,7 +18,6 @@ const AnimationLottie = ({ animationPath, width }) => {
       })
       .catch(() => setAnimationData(null));
 
-    // dynamically import lottie-react on the client to avoid server bundling
     import("lottie-react")
       .then((mod) => {
         if (!mounted) return;

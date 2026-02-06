@@ -1,5 +1,5 @@
 import * as React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 function ProjectCard({ project }) {
   return (
     <div className="border-[#1b2c68a0] relative rounded-lg border bg-[#061630] w-full p-4">
@@ -61,9 +61,7 @@ function ProjectCard({ project }) {
         </code>
       </div>
 
-      {/* Buttons Section */}
       <div className="px-4 py-3 flex justify-center space-x-4">
-        {/* GitHub Button with local logo */}
         <a
           href={project.githubLink}
           target="_blank"
@@ -71,26 +69,25 @@ function ProjectCard({ project }) {
           className="inline-flex items-center bg-[#2a3d4f] text-white rounded px-6 py-2 mt-2 hover:bg-[#061630] w-full max-w-[240px] justify-center"
         >
           <Image
-            src="/github.png" // Reference to the image in the public folder
+            src="/github.png"
             alt="GitHub"
-            width={24} // Specify the desired width in pixels
-            height={24} // Specify the desired height in pixels
-            className="mr-3" // Tailwind classes for margin and other styles
+            width={24}
+            height={24}
+            className="mr-3"
           />
           GitHub
         </a>
 
-        {/* Click to see the project Button with logo */}
         <a
           href={project.demoLink}
           className="inline-flex items-center bg-[#2a3d4f] text-white rounded px-6 py-2 mt-2 hover:bg-[#061630] w-full max-w-[290px] justify-center"
         >
           <Image
-            src="/view.jpg" // Reference to your custom logo
+            src="/view.jpg"
             alt="Contact Us"
-            width={24} // You can replace with the desired width in pixels
-            height={24} // You can replace with the desired height in pixels
-            className="mr-3" // Tailwind classes for margin and other styles
+            width={24}
+            height={24}
+            className="mr-3"
           />
           View the Project
         </a>

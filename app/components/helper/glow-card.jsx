@@ -54,14 +54,13 @@ const GlowCard = ({ children, identifier }) => {
       CONTAINER.style.setProperty("--spread", CONFIG.spread);
       CONTAINER.style.setProperty(
         "--direction",
-        CONFIG.vertical ? "column" : "row"
+        CONFIG.vertical ? "column" : "row",
       );
     };
 
     RESTYLE();
     UPDATE();
 
-    // Cleanup event listener
     return () => {
       document.body.removeEventListener("pointermove", UPDATE);
     };
