@@ -1,6 +1,15 @@
 export const experiences = [
   {
     id: 1,
+    title: "Web Developer & Social Media Manager",
+    company: "Ideoma",
+    duration: "Feb 12, 2026 - Present",
+    duties:
+      "Active in this role since February 12, focused on website creation, web development and maintenance with a strong focus on performance, and strategic social media management. Experienced in digital content creation and marketing strategies that strengthen brand presence and authority.",
+  },
+
+  {
+    id: 2,
     title: "Front End Developer - Angular(Internship)",
     company: "Behamics Company",
     duration: "Nov 2025 – Feb 2026",
@@ -9,7 +18,7 @@ export const experiences = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "IT & Graphic Designer",
     company: "Albimi – Manufacturer of Pilot Bicycles",
     duration: "Feb 2025 –  Aug 2025",
@@ -18,21 +27,12 @@ export const experiences = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Full Stack Developer Training",
     company: "Tectigon Academy",
     duration: "Oct 2024 - Dec 2024",
     duties:
       "Successfully completed a Full-Stack Developer training, covering PHP, SQL, JavaScript, ReactJS, Vue Js . The program included one month of hands-on practice, applying learned technologies in real-world projects.",
-  },
-
-  {
-    id: 4,
-    title: "Junior on Advanced JavaScript & ReactJs Training",
-    company: "Beetroot Academy",
-    duration: "Dec 2023 - Feb 2024",
-    duties:
-      "In the Advanced JavaScript & ReactJs Course, I enhanced my skills in JavaScript and ReactJs, focusing on hooks, context API, state management, and routing to build dynamic, responsive web applications.",
   },
 
   {
@@ -44,12 +44,4 @@ export const experiences = [
       "Concrete Applications of Data Structures and Algorithms in Web and Mobile Development.",
   },
 
-  {
-    id: 6,
-    title: "Python Training",
-    company: "Roi Academy",
-    duration: "Apr 2022",
-    duties:
-      "I started a Python course and, after completing it, was offered a 1-month internship by the academy to further develop my skills in Python.",
-  },
 ];

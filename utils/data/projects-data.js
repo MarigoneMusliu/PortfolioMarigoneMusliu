@@ -6,6 +6,16 @@ const travel = "/image/travel.jpg";
 export const projectsData = [
   {
     id: 1,
+    name: "Derand Hotel",
+    tools: "Web Design",
+    myRole: "Web Developer & Marketing",
+    description:
+      "Web development and maintenance with a focus on performance, paired with strategic social media management. Expert in digital content creation and marketing strategies that enhance brand presence and authority.",
+    githubLink: "https://github.com/MarigoneMusliu/derandhotel",
+    demoLink: "https://www.derandhotel.com/",
+  },
+  {
+    id: 2,
     name: "E-Bike Shop",
     tools: "Vue.js",
     myRole: "",
@@ -15,7 +25,7 @@ export const projectsData = [
     demoLink: "https://e-commerce-e-bike.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Private Business Projects",
     tools: "ReactJs",
     myRole: "",
@@ -26,7 +36,7 @@ export const projectsData = [
     image: crefin,
   },
   {
-    id: 3,
+    id: 4,
     name: "AIME Reinigungsservice",
     tools: "JavaScript",
     myRole: "",
@@ -37,7 +47,7 @@ export const projectsData = [
     image: travel,
   },
   {
-    id: 4,
+    id: 5,
     name: "Flor Construction",
     tools: "JavaScript",
     myRole: "",

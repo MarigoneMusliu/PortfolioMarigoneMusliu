@@ -1,6 +1,12 @@
 import * as React from "react";
 import Image from "next/image";
 function ProjectCard({ project }) {
+  const tools = Array.isArray(project.tools)
+    ? project.tools
+    : project.tools
+      ? [project.tools]
+      : [];
+
   return (
     <div className="border-[#1b2c68a0] relative rounded-lg border bg-[#061630] w-full p-4">
       <div className="flex flex-row">
@@ -35,10 +41,10 @@ function ProjectCard({ project }) {
           <div className="ml-4 lg:ml-8 mr-2">
             <span className=" text-white">tools:</span>
             <span className="text-gray-400">{` ['`}</span>
-            {project.tools.map((tag, i) => (
+            {tools.map((tag, i) => (
               <React.Fragment key={i}>
                 <span className="text-amber-300">{tag}</span>
-                {project.tools.length - 1 !== i && (
+                {tools.length - 1 !== i && (
                   <span className="text-gray-400">{`', '`}</span>
                 )}
               </React.Fragment>
@@ -47,7 +53,9 @@ function ProjectCard({ project }) {
           </div>
           <div>
             <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">{project.role}</span>
+            <span className="text-orange-400">
+              {project.myRole || project.role || "Frontend Developer"}
+            </span>
             <span className="text-gray-400">,</span>
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
